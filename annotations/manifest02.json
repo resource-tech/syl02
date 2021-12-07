@@ -1,0 +1,84 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sunyanling123.github.io/syl02/annotations/manifest02.json",
+  "@type" : "sc:Manifest",
+  "label" : {
+    "@value" : "IIIF",
+    "@language" : "en"
+  },
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "digital image presentation in library"
+  } ],
+  "description" : [ {
+    "@value" : "thesis",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "syl",
+  "sequences" : [ {
+    "@id" : "http://dc133ea9-b400-412e-8378-b41b841b5b0a",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://95a9f23b-9c07-4172-9f98-e768ca27a298",
+      "@type" : "sc:Canvas",
+      "label" : "02",
+      "height" : 4000,
+      "width" : 2992,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://21f82eaf-da81-49f3-ac25-8518670ded05",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://sunyanling123.github.io/syl02/images/note2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://sunyanling123.github.io/syl02/images/note2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4000,
+          "width" : 2992
+        },
+        "on" : "http://95a9f23b-9c07-4172-9f98-e768ca27a298"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c52996f8-7747-4468-9368-ee527c9cc305",
+      "@type" : "sc:Canvas",
+      "label" : "01",
+      "height" : 4000,
+      "width" : 2992,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://98ec86f5-d9ad-48ed-9fe5-b4052a61df20",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://sunyanling123.github.io/syl02/images/note1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://sunyanling123.github.io/syl02/images/note1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4000,
+          "width" : 2992
+        },
+        "on" : "http://c52996f8-7747-4468-9368-ee527c9cc305"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "viewingHint" : "book",
+  "related" : {
+    "@id" : "https://sunyanling123.github.io/syl02/images/note2/full/full/0/default.jpg",
+    "label" : "picture",
+    "format" : "jpg"
+  }
+}
