@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 2992,
+    "id" : "https://sunyanling123.github.io/syl02/images/note2/canvas/",
+    "label" : {
+      "none" : [ "note2" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://sunyanling123.github.io/syl02/images/note2/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://sunyanling123.github.io/syl02/images/note2/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 94,
+              "height" : 125
+            }, {
+              "width" : 187,
+              "height" : 250
+            }, {
+              "width" : 374,
+              "height" : 500
+            }, {
+              "width" : 748,
+              "height" : 1000
+            }, {
+              "width" : 1496,
+              "height" : 2000
+            }, {
+              "width" : 2992,
+              "height" : 4000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2992,
+            "@id" : "https://sunyanling123.github.io/syl02/images/note2",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 4000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2992,
+          "id" : "https://sunyanling123.github.io/syl02/images/note2/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 4000
+        },
+        "target" : "https://sunyanling123.github.io/syl02/images/note2/canvas/"
+      } ]
+    } ],
+    "height" : 4000
+  }, {
+    "width" : 2992,
     "id" : "https://sunyanling123.github.io/syl02/images/note1/canvas/",
     "label" : {
       "none" : [ "note1" ]
