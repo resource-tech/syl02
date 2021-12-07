@@ -1,0 +1,16 @@
+{
+  "id" : "https://sunyanling123.github.io/syl02/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in sunyanling123/syl02 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sunyanling123.github.io/syl02/manifests/manifest02.json",
+    "label" : {
+      "@value" : "IIIF",
+      "@language" : "en"
+    }
+  } ]
+}
