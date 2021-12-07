@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://sunyanling123.github.io/syl02/annotations/manifest02.json" ],
+  "@id" : "https://sunyanling123.github.io/syl02/annotations/collection.json",
+  "label" : "All annotations loaded in sunyanling123/syl02 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
